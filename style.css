@@ -1,0 +1,146 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.main{
+   background-image: linear-gradient( to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(image/image1.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 109vh;
+
+}
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon{
+   width:200px;
+   float: left;
+   height: 70px;
+}
+.logo{
+  color: red;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+.manu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+
+}
+ul  li a:hover{
+  color: orange;
+}
+.search{
+  display: flex;
+  width: 330px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10PX
+  
+}
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+}
+.btn{
+ background-color: orange;
+  
+}
+.contant{
+   display: flex;
+   margin-right: 300px;
+
+
+}
+.heading{
+  display: flex;
+  justify-content: end;
+  
+}
+.heading h2{
+ display: flex;
+       justify-content: center;
+       width: 35%;
+       background-color: orange;
+       border-radius: 10px;
+       margin-right: 10px;
+      
+  
+}
+
+       
+
+.login-container {
+  display: flex;
+  /* position: relative; */
+  margin-top: 20px;
+  background: white;
+  height: 300px;
+  width: 300px;
+ padding: 30px;
+margin-right: 20px;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  margin-right: 25px;
+ margin-top: 25px; 
+ justify-content: center;
+ align-items: center;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+.input-group input {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
